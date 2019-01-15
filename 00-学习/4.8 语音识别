@@ -1,0 +1,24 @@
+# ------------------------------------语音识别 代码8--------------------------------------
+import win32com.client
+
+# # 1. 创建一个播报器对象
+# speaker = win32com.client.Dispatch("SAPI.SpVoice")
+#
+# # 2. 通过这个播报器对象, 直接, 播放相对应的语音字符串就可以
+# speaker.Speak("我的名字是sz")
+
+# class Caculator:
+#     def __check_num_zsq(func):
+#         def inner(self, n):
+#             if not isinstance(n, int):
+#                 raise TypeError("当前这个数据的类型有问题, 应该是一个整型数据")
+#             return func(self, n)
+#
+#         return inner
+#
+#     # def __say(self, word):
+#     #     # 1. 创建一个播报器对象
+#     #     speaker = win32com.client.Dispatch("SAPI.SpVoice")
+#     #
+#     #     # 2. 通过这个播报器对象, 直接, 播放相对应的语音字符串就可以
+#     #     speaker.Speak(word)
